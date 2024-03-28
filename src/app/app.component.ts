@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'new-app';
+
+  NG_APP_HELLO = process.env['NG_APP_HELLO']
 }
